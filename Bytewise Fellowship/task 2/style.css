@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #f00d0d;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0dcfb5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .logo a {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-left: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav a:hover {
+    color: #007bff;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .banner {
+    background-image: url('banner.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .banner h1 {
+    font-size: 48px;
+    color: #fff;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+  }
+  
+  .banner p {
+    font-size: 24px;
+    color: #fff;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 40px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    }
+    
+    .btn:hover {
+    background-color: #0069d9;
+    }
+    
+    .product {
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+    .product-item {
+    flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .product-item img {
+    max-width: 100%;
+    height: auto;
+    }
+    
+    .product-item h3 {
+    font-size: 24px;
+    margin: 10px;
+    }
+    
+    .product-item p {
+    margin: 10px;
+    }
+
+    footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fffbfb;
+    color: #020000;
+    padding: 20px;
+    }
+    
+    .social-icons a {
+    color: #fff;
+    margin-left: 10px;
+    }
+    
+    .social-icons a:hover {
+    color: #007bff;
+    }

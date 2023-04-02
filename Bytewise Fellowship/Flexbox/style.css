@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav li {
+    margin-left: 20px
+}
+
+nav a {
+color: #333;
+text-decoration: none;
+font-size: 18px;
+font-weight: bold;
+}
+
+.search {
+display: flex;
+align-items: center;
+margin-left: auto;
+}
+
+.search input[type="text"] {
+border: none;
+padding: 10px;
+margin-right: 10px;
+}
+
+.search button {
+background-color: #333;
+color: #fff;
+border: none;
+padding: 10px 20px;
+cursor: pointer;
+transition: background-color 0.2s ease;
+}
+
+.search button:hover {
+background-color: #444;
+}
+
+.text {
+background-image: url("background.jpg");
+background-size: cover;
+background-position: center;
+color: #000000;
+padding: 100px 0;
+text-align: center;
+}
+
+.text h1 {
+font-size: 48px;
+margin-bottom: 20px;
+}
+
+.text p {
+font-size: 24px;
+margin-bottom: 40px;
+}
+
+.btn {
+background-color: #333;
+color: #fff;
+border: none;
+padding: 10px 20px;
+font-size: 18px;
+font-weight: bold;
+text-decoration: none;
+cursor: pointer;
+transition: background-color 0.2s ease;
+}
+
+.btn:hover {
+background-color: #444;
+}
+
+.categories {
+background-color: #f9f9f9;
+padding: 100px 0;
+text-align: center;
+}
+
+.categories h2 {
+font-size: 36px;
+margin-bottom: 40px;
+}
+
+.category-items {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.category-item {
+width: 23%;
+margin-bottom: 40px;
+}
+
+.category-item img {
+width: 100%;
+border-radius: 5px;
+margin-bottom: 10px;
+}
+
+.category-item h3 {
+font-size: 24px;
+font-weight: bold;
+color: #333;
+}
+
+footer {
+background-color: #333;
+color: #fff;
+padding: 20px 0;
+text-align: center;
+}
+
+footer p {
+font-size: 18px;
+margin-bottom: 10px;
+}
+
+.text h1 {
+opacity: 0;
+animation: fadeIn 1s forwards;
+}
+
+.text p {
+opacity: 0;
+animation: fadeIn 1s 0.5s forwards;
+}
+
+.btn {
+opacity: 0;
+animation: fadeIn 1s 1s forwards;
+}
+
+@keyframes fadeIn {
+from {
+opacity: 0;
+}
+to {
+opacity: 1;
+}
+}  

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Landing Page using Tailwind CSS</title>
+</head>
+<body class="font-outfit bg-body bg-[length:32px_32px]">
+        <div class="py-2 relative shadow-sm">
+            <div class="container mx-auto px-4">
+                <div class="flex items-center gap-8">
+                    <a href="#" class="text-xl font-semibold">Universal.com</a>
+                    <div class="absolute md:static top-full left-0 w-full opacity-0 invisible md:opacity-100 md:visible transition-opacity navbar-menu shadow-sm md:shadow-none py-2 md:py-0 bg-white">
+                        <div class="container mx-auto px-4 md:px-0">
+                            <ul class="flex items-start md:items-center gap-y-2 gap-x-4 flex-col md:flex-row">
+                                <li>
+                                    <a href="#" class="text-sm font-medium hover:text-blue-500">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-sm font-medium hover:text-blue-500">Lessons</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-sm font-medium hover:text-blue-500">Features</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-sm font-medium hover:text-blue-500">About Us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="ml-auto flex items-center gap-4">
+                        <a href="#"><i class='bx bx-search-alt-2' ></i></a>
+                        <a href="#" class="btn btn-outline-blue hidden sm:inline-block">Login</a>
+                        <a href="#" class="btn btn-outline-blue hidden sm:inline-block">Register</a>
+                    </div>
+                    <i class='bx bx-menu toggle-navbar md:hidden'></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="pt-40 pb-64 bg-header bg-bottom">
+        <div class="container mx-auto px-4">
+            <h1 class="text-5xl font-medium mb-4 text-white text-center">When ambition meets opportunity, Anything is Possible.</h1>
+            <p class="text-center text-white">Keep Learning  Anytime and Anywhere</p>
+            <div class="flex items-center gap-8 justify-center mt-8">
+                <a href="https://thecityschool.edu.pk/" class="btn btn-blue">Get Started Now</a>
+                <a href="#" class="font-medium text-white underline underline-offset-2">How It Works?</a>
+            </div>
+        </div>
+    </header>
+    <section class="py-10">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl font-semibold text-center mb-2">How It Works?</h2>
+            <p class="text-gray-600 text-center max-w-md mx-auto"> This is the platform designed to find the best schools to learn.</p>
+            <div class="mt-12 flex-col md:flex-row flex items-center gap-16 justify-center">
+                <div class="text-center">
+                    <div class="w-20 h-20 mx-auto mb-4 rounded-full text-white text-3xl bg-blue-500 flex items-center justify-center relative">
+                        <i class='bx bxs-school'></i>
+                        <span class="absolute top-0 left-0 w-8 h-8 border-blue-500 border-2 bg-white flex items-center justify-center text-blue-500 text-sm rounded-full font-semibold">1</span>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Find School</h3>
+                    <p class="text-gray-600">Find suitable school to learn.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-20 h-20 mx-auto mb-4 rounded-full text-white text-3xl bg-blue-500 flex items-center justify-center relative">
+                        <i class='bx bxs-book-alt'></i>
+                        <span class="absolute top-0 left-0 w-8 h-8 border-blue-500 border-2 bg-white flex items-center justify-center text-blue-500 text-sm rounded-full font-semibold">2</span>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Find Your Lesson</h3>
+                    <p class="text-gray-600">Learn virtually from talented mentors.</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-20 h-20 mx-auto mb-4 rounded-full text-white text-3xl bg-blue-500 flex items-center justify-center relative">
+                        <i class='bx bxs-award' ></i>
+                        <span class="absolute top-0 left-0 w-8 h-8 border-blue-500 border-2 bg-white flex items-center justify-center text-blue-500 text-sm rounded-full font-semibold">3</span>
+                    </div>
+                    <h3 class="text-lg font-semibold mb-2">Get Certified</h3>
+                    <p class="text-gray-600">Learn courses to get certificates.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-10 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="py-10 px-6 bg-blue-600 rounded">
+                <h3 class="text-2xl font-semibold mb-2 text-center text-white">People Love to connect with US.</h3>
+                <p class="text-center text-white">We believe in being transparent and keeping you up to date with our results</p>
+                <div class="flex gap-6 overflow-x-auto snap-mandatory snap-x no-scrollbar scroll-smooth mt-8">
+                    <div class="p-6 bg-white rounded min-w-lesson-1 md:min-w-lesson-2 snap-start">
+                        <p class="italic mb-6">"We believe that a quality physical space is critical to fostering learning—so we build classrooms in partnership with public school systems and communities in Ghana, Guatemala and Laos to ensure that all students have access to a safe and healthy place to learn."</p>
+                        <div class="flex items-center gap-2 font-medium">
+                            <img src="img/logo.png" alt="" class="w-10 h-10 rounded-full object-cover">
+                            Sharjeel Akram
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-6 bg-gray-800">
+        <div class="container mx-auto px-4">
+                <div class="flex-1">
+                    <h3 class="text-lg font-semibold mb-2 text-white">Let’s Connect</h3>
+                    <div class="flex gap-4">
+                        <a href="https://www.facebook.com/sharjeel.akram0200" class="h-12 text-lg aspect-square rounded text-center flex justify-center items-center bg-white"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://www.instagram.com/sharjeel.akram/" class="h-12 text-lg aspect-square rounded text-center flex justify-center items-center bg-white"><i class='bx bxl-instagram'></i></a>
+                        <a href="https://twitter.com/Sharjeelakram02" class="h-12 text-lg aspect-square rounded text-center flex justify-center items-center bg-white"><i class='bx bxl-twitter'></i></a>
+                        <a href="https://www.linkedin.com/in/sharjeel-akram-b95169129/" class="h-12 text-lg aspect-square rounded text-center flex justify-center items-center bg-white"><i class='bx bxl-linkedin'></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="mt-6 mb-4">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+                <a href="#" class="text-xl font-semibold text-white">Universal.com</a>
+                <div class="flex gap-6">
+                    <a href="#" class="text-gray-300">Term & Conditions</a>
+                    <a href="#" class="text-gray-300">Privacy Policy</a>
+                </div>
+                <span class="text-white">All Copyrights are Reserved @2023</span>
+            </div>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
