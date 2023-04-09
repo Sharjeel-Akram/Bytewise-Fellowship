@@ -7,5 +7,5 @@ console.log(title);
 // console.log(listItem);
 
 // GetElementByTagName()
-const listItem = document.getElementsByTagName('list-items');
-console.log(listItem);
+const listItems = document.getElementsByTagName('li');
+console.log(listItems);
