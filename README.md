@@ -10,3 +10,4 @@
 - [x] Learn Tailwind CSS
 - [x] Learn Basic Javascript
 - [ ] Javascript DOM
+- [x] Async Javascript

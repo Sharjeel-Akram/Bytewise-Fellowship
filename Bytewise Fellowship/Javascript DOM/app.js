@@ -15,6 +15,6 @@
 // console.log(container);
 
 //Query SelectotAll()
-const container = document.querySelectorAll('dic');
+const container = document.querySelectorAll('div');
 console.log(container);
 
