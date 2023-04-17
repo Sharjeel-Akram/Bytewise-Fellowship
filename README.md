@@ -11,4 +11,6 @@
 - [x] Learn Basic Javascript
 - [ ] Javascript DOM
 - [x] Async Javascript
-- [ ] Create Todo App Javascript
+- [x] Create Todo App Javascript
+- [ ] React Fundamentals
+
